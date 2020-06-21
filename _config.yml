@@ -1,0 +1,14 @@
+title: moving faith # The title of the blog
+email: movingfaith@protonmail.com # your email shown in the footer
+url:  # this is your site's root address.
+favicon: "./favicon.ico" # set the favicon of the site 
+
+# Moving date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+moving:
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
